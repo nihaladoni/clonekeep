@@ -1,0 +1,36 @@
+.my-masonry-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -30px;
+  width: 98%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.my-masonry-grid_column {
+  background-clip: padding-box;
+}
+.my-masonry-grid_column > div {
+  margin-bottom: 10px;
+}
+
+.home {
+  min-height: 90vh;
+  margin-top: 50px;
+}
+
+.mymason {
+  margin-top: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .my-masonry-grid {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .mymason {
+    margin-top: 80px;
+  }
+}
