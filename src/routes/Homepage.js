@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Skeleton from "@material-ui/lab/Skeleton";
 import "./homepage.css";
 
@@ -8,7 +8,11 @@ import Masonry from "react-masonry-css";
 
 import NoteInput from "../components/NoteInput";
 import { auth, db } from "../firebase/config";
-import { updateUserDocument, updateUserNotes } from "../firebase/user";
+import {
+  createUserDocument,
+  updateUserDocument,
+  updateUserNotes,
+} from "../firebase/user";
 
 import uniqid from "uniqid";
 import { useAuthState } from "react-firebase-hooks/auth";
@@ -31,6 +35,19 @@ const Homepage = () => {
   const [user] = useAuthState(auth);
 
   // console.log(prefs);
+
+  useEffect(() => {
+    if (user) {
+      db.collection("users")
+        .doc(user.uid)
+        .get()
+        .then((doc) => {
+          if (!doc.exists) {
+            createUserDocument(user);
+          }
+        });
+    }
+  }, [user]);
 
   // handlers
 

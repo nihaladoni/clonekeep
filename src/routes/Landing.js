@@ -14,7 +14,7 @@ import {
 
 import { auth } from "../firebase/config";
 import CustomAlert from "../components/CustomAlert";
-// import { createUserDocument } from "../firebase/user";
+
 import MyBackdrop from "../components/Backdrop";
 
 const LandingPage = () => {
@@ -59,7 +59,6 @@ const LandingPage = () => {
     // register
     if (mode === "register") {
       await createUserWithEmailAndPassword(formState.email, formState.password);
-      // console.log("user", user);
 
       if (registerError) {
         setAlert({
@@ -68,7 +67,6 @@ const LandingPage = () => {
           message: registerError,
         });
       }
-      // user && createUserDocument(user);
 
       registerUser && history.push("/home");
     }
