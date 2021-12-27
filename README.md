@@ -1,70 +1,115 @@
-# Getting Started with Create React App
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/nihaladoni/clonekeep">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="https://raw.githubusercontent.com/nihaladoni/clonekeep/master/src/images/logo.png" alt="Logo" width="80" height="80" />
 
-## Available Scripts
+</a>
 
-In the project directory, you can run:
+<h2 align="center">Google Keep Clone</h2>
 
-### `npm start`
+<!-- Shields -->
+  <div align="center">
+    <a href="https://standardjs.com">
+      <img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat"
+        alt="Standard" />
+    </a>
+.
+    <img src="https://img.shields.io/github/languages/code-size/nihaladoni/clonekeep?style=flat-square" alt="Code size" />
+.
+    <img src="https://img.shields.io/github/license/nihaladoni/clonekeep?style=flat-square" alt="License" />
+.
+    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/nihaladoni/clonekeep?style=flat-square">
+.
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/nihaladoni/clonekeep?style=social">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  </div>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  <br />
+  <br />
+  <p>
 
-### `npm test`
+<a href="https://clonekeep.netlify.app/">View Demo</a>
+·
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<a href="https://github.com/nihaladoni/clonekeep/issues">Report Bug</a>
+·
+<a href="https://github.com/nihaladoni/clonekeep/issues">Request Feature</a>
 
-### `npm run build`
+</p>
+</div>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- ABOUT THE PROJECT -->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![clonekeep](https://raw.githubusercontent.com/nihaladoni/cms/main/cloneKeep.gif)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 💻 Built with
 
-### `npm run eject`
+<ul>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+  <li>React</li>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  <li>Firebase</li>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+  <li>Material UI</li>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  <li>HTML</li>
 
-## Learn More
+  <li>CSS</li>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+</ul>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- GETTING STARTED -->
 
-### Code Splitting
+## ⚡ Getting started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Clone the repo
 
-### Analyzing the Bundle Size
+```sh
+git clone https://github.com/nihaladoni/clonekeep.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2. Change directory
 
-### Making a Progressive Web App
+```sh
+ cd clonekeep
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+3. Install NPM packages
 
-### Advanced Configuration
+```sh
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+4. Create a .env in the project root and include the firebase config in it.
 
-### Deployment
+5. Run the app using command
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```sh
+npm start
+```
 
-### `npm run build` fails to minify
+<!-- CONTRIBUTING -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🌟 Contributing
+
+Contributions are always welcome! . Please read the [contribution guidelines](CONTRIBUTING) first.
+
+<!-- CONTACT -->
+
+## 🕴️ Contact
+
+- Email : [nihaladoni@gmail.com](mailto:nihaladoni@gmail.com)
+
+- Linkedin : [@nehaladoni](https://linkedin.com/in/nehaladoni)
+
+- Twitter : [@nihaladni05](https://twitter.com/nihaladni05)
+
+- Website : [https://nihaladoni.ml/](https://nihaladoni.ml/)
+
+<!-- LICENSE -->
+
+## 🔔 License
+
+Distributed under the [MIT](LICENSE) License.
